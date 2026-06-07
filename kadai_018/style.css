@@ -48,7 +48,6 @@
     margin: 0 auto;
     width: 800px;
     height: 300px;
-    position: relative;
 }
 #bottom-child01{
     background-color: #e5dcf0;
@@ -59,15 +58,13 @@
     background-color: #e5dcf0;
     width: 400px;
     height: 100px;
-    position: absolute;
-    top: 100px;
+    position: relative;
     left: 200px;
 }
 #bottom-child03{
     background-color: #e5dcf0;
     width: 400px;
     height: 100px;
-    position: absolute;
-    top: 200px;
+    position: relative;
     left: 400px;
 }
