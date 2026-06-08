@@ -32,12 +32,12 @@ h2{
   border-bottom: 3px solid rgb(236, 122, 122);
 }
 h2::before{
-  content: "⚫︎";
-  color: rgb(239, 111, 139);
+  content: "●";
+  color: rgb(239,111,139);
 }
-/* なぜか（２）で指定すると一つ目のpが指定される */
-.contents p:nth-child(3)::first-letter{
+.contents p:nth-of-type(2)::first-letter{
   color: rgb(97, 206, 249);
+  font-weight: bold;
 }
 img{
   width: 70%;
